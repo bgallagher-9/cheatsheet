@@ -12,10 +12,34 @@ p {
 }
 
 div {
-  border: dashed 3px green;
+  border: dashed 1px green;
 }
 
 span {
   border: solid 2px red;
   background-color: yellow;
+}
+
+#first {
+  font-size: 15px;
+}
+
+#second {
+  font-size: 25px
+}
+
+#third {
+  font-size: 35px
+}
+
+.fontcolor {
+  color: #ff0000;
+}
+
+#footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
 }
