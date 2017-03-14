@@ -1,5 +1,6 @@
 h1 {
   font-family: Helvetica, Verdana, sans-serif;
+  text-align: center;
 }
 
 .change1 {
@@ -8,4 +9,13 @@ h1 {
 
 p {
   font-size: 20px;
+}
+
+div {
+  border: dashed 3px green;
+}
+
+span {
+  border: solid 2px red;
+  background-color: yellow;
 }
