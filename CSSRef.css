@@ -131,7 +131,8 @@ img {
 
 .hundoplus {
 	line-height: 234%;
-	border: 2px solid green;
+	border: 3px solid green;
+	border-radius: 20px 20px 20px 20px;
 	margin: 0 5% 20px 5%;
 }
 
@@ -143,7 +144,9 @@ img {
 
 .number {
 	line-height: 3.3;
-	border: 2px solid blue;
+	border: 2px blue dashed;
+	background-color: rgba(255, 242, 45, .3);
+	border-radius: 15px 15px;
 	margin: 0 5% 20px 5%;
 }
 
