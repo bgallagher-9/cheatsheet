@@ -1,0 +1,97 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@keyframes exOne {
+  from {
+    margin-top: 50%;
+    margin-right: 0%;
+    text-align: right;
+    width: 200%;
+  }
+  to {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.example1 {
+  animation: 3s alternate-reverse 0s 2 both ease-in-out exOne;
+  font-size: 22px
+}
+
+.example2 {
+  height: 100px;
+  position: absolute;
+  width: 50%;
+  background-color: red;
+  overflow: auto;
+  margin-top: 30px
+}
+.example2 p {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  animation: 5s alternate 0s 2 ease-in-out exTwo;
+  border-radius: 100%;
+  position: relative;
+}
+
+@keyframes exTwo {
+  /*position: relative;*/
+  0% {background-color: blue; left: -2%; top: -5%;}
+  25% {background-color: purple; left: 97%; top: 0px;}
+  50% {background-color: green; left: 97%; top: 90%;}
+  75% {background-color: yellow; left: -2%; top: 90%;}
+  100% {background-color: red; left: -2%; top: -5%;}
+  0% {background-color: blue; left: -2%; top: -5%;}
+}
+
+  a {
+    padding: 3em;
+  }
