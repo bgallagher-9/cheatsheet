@@ -95,10 +95,10 @@ table {
   position: absolute;
   bottom: 100px;
   left: 150px;
-  transition: width 2s, height 2s, border-radius 2s, background-color 2s, transform 2s;
+  transition: width 1s, height 1s, border-radius 1s, background-color 1s, transform 1s;
 }
 
-.mouth:hover {
+.big-box:hover .mouth {
   width: 100px;
   height: 50px;
   border: 10px solid black;
@@ -111,5 +111,5 @@ table {
   position: absolute;
   bottom: 100px;
   left: 150px;
-  transition: width 2s, height 2s, border-radius 2s, background-color 2s, transform 2s;
+  transition: width 1s, height 1s, border-radius 1s, background-color 1s, transform 1s;
 }
